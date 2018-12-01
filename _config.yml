@@ -1,10 +1,10 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
+title: Elmo Nemo
+email: zied.abaoub@cartercenter.org
 url: https://example.github.io
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
+skills: "A Robust Mobile Data Collection & Analysis System"
 meta_author: LastName FirstName
 
 # Google webmaster tools
@@ -25,14 +25,14 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
+  primary: AEADA9 #F5A874 80B3FF
   primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  secondary: 6C89BC #FD6E8A
+  secondary-dark: AFC2E0 #A2122F
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: The Carter Center
   location: Location
   social: Around the Web
   credits: Credits

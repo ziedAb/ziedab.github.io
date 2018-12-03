@@ -22,6 +22,11 @@
     line-height: 45px;
 }
 
+.btn-success{
+    background-color: $primary;
+    border-color: $primary; 
+}
+
 .btn:focus,
 .btn:active,
 .btn.active {

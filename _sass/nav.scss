@@ -19,12 +19,11 @@
         }
     }
     .navbar-img{
-        width: 130px;
+        height: 40px;
         position: absolute;
-        top: 4px;
+        top: 5px;
         &:nth-child(2){
             left: 150px;
-            top: 8px;
         }
     }
 }

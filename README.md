@@ -1,1 +1,1 @@
-ELMO NEMO website developed with Jekyll and inspired by [http://jeromelachaud.com/freelancer-theme/]
+ELMO NEMO website developed with Jekyll and inspired by [Freenlancer theme](http://jeromelachaud.com/freelancer-theme/).

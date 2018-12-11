@@ -1,4 +1,10 @@
 features:
-  forms: Conception de formulaire complexe
-  collect: Collecter des données sur terrain
-  multilang: Support de plusieurs langues
+  - title: Conception de formulaire complexe
+    icon: fas fa-cogs
+    description: From simple to sophisticated, easily create forms right in the application
+  - title: Collecter des données sur terrain
+    icon: fas fa-tablet-alt
+    description: Collect data with ODK or SMS. No connection required
+  - title: Support de plusieurs langues
+    icon: fas fa-globe-africa
+    description: Use many different languages and dialects

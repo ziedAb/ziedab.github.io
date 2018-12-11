@@ -5,7 +5,13 @@
     {% if page.lang == 'en' %}
         {% assign lang = site.data.en %}
     {% endif %}
-    
+    {% if page.lang == 'ar' %}
+        {% assign lang = site.data.ar %}
+    {% endif %}
+    {% if page.lang == 'fr' %}
+        {% assign lang = site.data.fr %}
+    {% endif %}
+
     {% include nav.html %}
     {% include header.html %}
     {% include features.html %}

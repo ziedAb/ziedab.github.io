@@ -27,6 +27,3 @@ footer:
 # Build settings
 markdown: kramdown
 permalink: pretty
-
-# i18n
-languages: ["en", "fr", "ar"]

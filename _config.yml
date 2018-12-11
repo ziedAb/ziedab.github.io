@@ -28,10 +28,5 @@ footer:
 markdown: kramdown
 permalink: pretty
 
-# Plugins
-plugins: 
-  - jekyll-multiple-languages-plugin
-
 # i18n
 languages: ["en", "fr", "ar"]
-exclude_from_localizations: ["/assets"]

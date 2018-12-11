@@ -1,0 +1,10 @@
+features:
+  - title: DESIGN COMPLEX FORMS
+    icon: fas fa-cogs
+    description: From simple to sophisticated, easily create forms right in the application
+  - title: COLLECT DATA IN THE FIELD
+    icon: fas fa-tablet-alt
+    description: Collect data with ODK or SMS. No connection required
+  - title: MULTI-LANGUAGE SUPPORT
+    icon: fas fa-globe-africa
+    description: Use many different languages and dialects

@@ -1,4 +1,3 @@
-
     <!-- Features Section -->
     <section class="features" id="features">
         <div class="container">
@@ -9,27 +8,20 @@
             </div>
             <hr class="star-primary">
             <div class="row">
+                {% for item in lang.features %}
                 <div class="col-sm-4 feature">
-                    <i class="fas fa-cogs fa-4x feature-icon"></i>
-                    <h4 class="feature-header">{% t features.forms %}</h4>
-                    <p class="feature-description">From simple to sophisticated, easily create forms right in the application</p>
+                    <i class="fas {{ item.icon }} fa-4x feature-icon"></i>
+                    <h4 class="feature-header">{{ item.title }}</h4>
+                    <p class="feature-description">{{ item.description }}</p>
                 </div>
-                <div class="col-sm-4 feature">
-                    <i class="fas fa-tablet-alt fa-4x feature-icon"></i>
-                    <h4 class="feature-header">{% t features.collect %}</h4>
-                    <p class="feature-description">Collect data with ODK or SMS. No connection required</p>
-                </div>
-                <div class="col-sm-4 feature">
-                    <i class="fas fa-globe-africa fa-4x feature-icon"></i>
-                    <h4 class="feature-header">{% t features.multilang %}</h4>
-                    <p class="feature-description">Use many different languages and dialects</p>
-                </div>
+                {% endfor %}
             </div>
             <div class="row">
                 <div class="col-sm-4 feature">
                     <i class="fab fa-github fa-4x feature-icon"></i>
                     <h4 class="feature-header">100% Open Source</h4>
-                    <p class="feature-description">Help us by <a href="http://github.com/thecartercenter/elmo">forking the project</a>  to take it in a new direction</p>
+                    <p class="feature-description">Help us by <a href="http://github.com/thecartercenter/elmo">forking the project</a>  to take it in a new direction {{ lang }}
+</p>
                 </div>
                 <div class="col-sm-4 feature">
                     <i class="fas fa-users fa-4x feature-icon"></i>

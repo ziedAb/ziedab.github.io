@@ -2,7 +2,7 @@ source "https://rubygems.org"
 gemspec
 
 gem 'jekyll'
-gem 'jekyll-multiple-languages-plugin', '~> 1.6'
+gem 'github-pages'
 
 group :jekyll_plugins do
   gem 'jekyll-sitemap'

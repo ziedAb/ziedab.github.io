@@ -2,15 +2,15 @@
 <html>
     {% include head.html %}
     <body id="page-top" class="index">
-    {% if page.lang == 'en' %}
+    <!-- set language variable -->    
+    {% case page.lang %}
+      {% when 'en' %}
         {% assign lang = site.data.en %}
-    {% endif %}
-    {% if page.lang == 'ar' %}
+      {% when 'ar' %}
         {% assign lang = site.data.ar %}
-    {% endif %}
-    {% if page.lang == 'fr' %}
+      {% when 'fr' %}
         {% assign lang = site.data.fr %}
-    {% endif %}
+    {% endcase %}
 
     {% include nav.html %}
     {% include header.html %}

@@ -4,7 +4,7 @@
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
+                <span class="sr-only"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -22,21 +22,21 @@
                     <a href="#page-top"></a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#features">Features</a>
+                    <a href="#features">{{ lang.nav.features }}</a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#about">About</a>
+                    <a href="#about">{{ lang.nav.about }}</a>
                 </li>
                 <li>
-                    <a href="http://elmo-nemo.readthedocs.io">Documentation</a>
+                    <a href="http://elmo-nemo.readthedocs.io">{{ lang.nav.documentation }}</a>
                 </li>
                 <li>
-                    <a href="https://github.com/thecartercenter/elmo">GitHub</a>
+                    <a href="https://github.com/thecartercenter/elmo">{{ lang.nav.github }}</a>
                 </li>
 
                 <select class="select-language" id="select-language">
-                    <option value="/" {% if page.url == '/' %} selected="selected" {% endif %}>English</option>
-                    <option value="/acceuil" {% if page.url == '/acceuil/' %} selected="selected" {% endif %}>French</option>
+                    <option value="/" {% if page.url == '/' %} selected="selected" {% endif %}>{{ lang.english }}</option>
+                    <option value="/acceuil" {% if page.url == '/acceuil/' %} selected="selected" {% endif %}>{{ lang.french }}</option>
                 </select>
 
             </ul>

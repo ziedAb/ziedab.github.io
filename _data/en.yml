@@ -1,3 +1,15 @@
+english: English
+french: French
+arabic: Arabic
+nav:
+  features: features
+  about: about
+  documentation: documentation
+  github: github
+header:
+  intro: A Robust Mobile Data Collection & Analysis System
+about:
+  intro: NEMO/ELMO is <a href="https://www.cartercenter.org/"> The Carter Center's</a> open-source data collection and reporting system. Equipped with NEMO/ELMO, enumerators can submit evaluations of a process via Android devices, SMS, or directly online in real-time to field or mission headquarters. NEMO/ELMO’s reporting system organizes enumerator findings, and is relied upon by The Carter Center missions around the globe to analyze and assess data. The open source license for NEMO/ELMO is Apache 2.0. NEMO/ELMO can be hosted on personal servers and users can control who has access to the data.
 features:
   - title: DESIGN COMPLEX FORMS
     icon: fas fa-cogs
@@ -8,3 +20,12 @@ features:
   - title: MULTI-LANGUAGE SUPPORT
     icon: fas fa-globe-africa
     description: Use many different languages and dialects
+  - title: 100% OPEN SOURCE
+    icon: fab fa-github
+    description: Help us by <a href="http://github.com/thecartercenter/elmo">forking the project</a>  to take it in a new direction
+  - title: Manage Users and Send SMS
+    icon: fas fa-users
+    description: Create missions and easily manage and communicate with staff in the field
+  - title: Custom Reporting & Analysis
+    icon: fas fa-chart-line
+    description: Real-time reporting, analysis, and standardized reports to easily customize

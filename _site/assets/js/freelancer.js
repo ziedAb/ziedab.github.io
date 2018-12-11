@@ -24,3 +24,8 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+// Language redirect
+$('#select-language').on('change', function(){
+   window.location = $(this).val();
+});

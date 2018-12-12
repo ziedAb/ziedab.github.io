@@ -4,6 +4,9 @@
 <loc>http://localhost:4001/acceuil/</loc>
 </url>
 <url>
+<loc>http://localhost:4001/home/</loc>
+</url>
+<url>
 <loc>http://localhost:4001/</loc>
 </url>
 </urlset>

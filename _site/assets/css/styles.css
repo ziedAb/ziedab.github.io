@@ -1,3 +1,7 @@
+/* right to left specif */
+.rtl {
+  direction: rtl; }
+
 body {
   overflow-x: hidden; }
 
@@ -108,7 +112,8 @@ section {
   .navbar .navbar-img {
     height: 40px;
     position: absolute;
-    top: 5px; }
+    top: 5px;
+    left: 15px; }
     .navbar .navbar-img:nth-child(2) {
       left: 150px; }
 
@@ -192,6 +197,25 @@ section {
 
   .collapse.in {
     display: block !important; } }
+/* right to left section */
+.rtl .navbar-header {
+  float: right; }
+@media (min-width: 768px) {
+  .rtl .navbar-nav > li {
+    float: right; }
+  .rtl .navbar-right {
+    float: left !important; } }
+.rtl .navbar .navbar-img {
+  right: 15px; }
+  .rtl .navbar .navbar-img:nth-child(2) {
+    right: 150px; }
+@media (max-width: 1024px) {
+  .rtl .navbar-toggle {
+    float: left;
+    margin-left: 15px; }
+  .rtl .navbar-header {
+    float: none; } }
+
 .header-custom {
   background-image: url(../img/elmo-nemo.jpg);
   background-repeat: no-repeat;

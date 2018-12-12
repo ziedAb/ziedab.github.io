@@ -3,6 +3,11 @@ $primary: #484646;
 $secondary: #6C89BC;
 $secondary-dark: #AFC2E0;
 
+/* right to left specif */
+.rtl{
+	direction: rtl;
+}
+
 body {
     overflow-x: hidden;
 }

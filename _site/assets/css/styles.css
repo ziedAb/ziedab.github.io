@@ -67,8 +67,7 @@ hr .star-primary {
 section {
   padding: 100px 0; }
   section h2 {
-    margin: 0;
-    font-size: 3em; }
+    margin: 0; }
   section.success {
     color: #fff;
     background: #484646; }

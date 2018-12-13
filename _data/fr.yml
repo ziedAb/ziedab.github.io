@@ -9,7 +9,7 @@ nav:
 header:
   intro: Un système robuste de collecte et d'analyse de données
 about:
-  intro: "NEMO est un outil open-source de collecte et d'analyse de données développé par le Centre Carter. Les enumérateurs peuvent soumettre des formulaires en temps réel via Android, SMS, ou un navigateur web. Les données receuillies peuvent être analysés au sein de NEMO ou bien exportés pour des analyses plus approfondies. NEMO est utilisé dans le monde entier par les missions du Centre Carter pour la collecte et l'analyse de données. La license open source de NEMO/ELMO est Apache 2.0. Il peut être hébergé sur des serveurs privés et les utilisateurs peuvent controler l'accès au données."
+  intro: "NEMO est un outil open-source de collecte et d'analyse de données développé par le <a href=\"https://www.cartercenter.org/\">Centre Carter</a>. Les enumérateurs peuvent soumettre des formulaires en temps réel via Android, SMS, ou un navigateur web. Les données receuillies peuvent être analysées au sein de NEMO ou bien exportées pour des analyses plus approfondies. NEMO est utilisé dans le monde entier par les missions du Centre Carter pour la collecte et l'analyse de données. La license open source de NEMO/ELMO est Apache 2.0. Il peut être hébergé sur des serveurs privés et les utilisateurs peuvent controler l'accès aux données."
 features:
   - title: Conception de formulaire complexe
     icon: fas fa-cogs
